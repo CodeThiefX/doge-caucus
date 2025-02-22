@@ -37,7 +37,7 @@ const Banner = () => {
               always come out on top.
             </p>
 
-            <div className="flex flex-wrap gap-4">
+            {/* <div className="flex flex-wrap gap-4">
               <button className="px-6 py-3 rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 hover:opacity-90 transition-opacity flex items-center">
                 CHART
                 <ArrowRight className="ml-2 w-4 h-4" />
@@ -45,7 +45,7 @@ const Banner = () => {
               <button className="px-6 py-3 rounded-lg border border-white/20 hover:bg-white/10 transition-colors">
                 BUY NOW
               </button>
-            </div>
+            </div> */}
           </div>
 
           {/* Image section */}
