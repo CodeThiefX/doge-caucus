@@ -20,9 +20,16 @@ const NavBar = () => {
 
         {/* Desktop Menu */}
         <div className="lg:flex gap-4 items-center hidden font-extrabold">
-          <a className="text-white text-3xl">ABOUT</a>
-          <a className="text-white text-3xl">TOKENOMICS</a>
-          <a className="text-white text-3xl">MISSION</a>
+          <a className="text-white text-3xl" href="#">
+            HOME
+          </a>
+          <a className="text-white text-3xl" href="#about">
+            MISSION
+          </a>
+          <a className="text-white text-3xl" href="#tokenomics">
+            TOKENOMICS
+          </a>
+
           <img src="buy-now.PNG" alt="buy-now" width="100" height="40" />
         </div>
 

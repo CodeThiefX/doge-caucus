@@ -38,19 +38,19 @@ const Hero = () => {
       <div className="hidden lg:block w-1/3">
         <a
           href="https://t.me/dogecaucus_sol"
-          className="w-[100px] absolute right-[50px] top-[180px]"
+          className="w-[100px] absolute right-[50px] top-[190px]"
         >
           <img src="telegram.PNG" alt="telegram" />
         </a>
         <a
           href="https://www.dextools.io/app/en/token/dogecaucus?t=1738234953696"
-          className="w-[100px] absolute right-16 top-[100px]"
+          className="w-[100px] absolute right-16 top-[110px]"
         >
           <img src="dextool.PNG" alt="dextool" />
         </a>
         <a
           href="https://x.com/DogeCaucus_CTO"
-          className="w-[290px] absolute right-14 top-[110px]"
+          className="w-[290px] absolute right-14 top-[120px]"
         >
           <img src="twitter.PNG" alt="twitter" />
         </a>
