@@ -23,6 +23,14 @@ const Hero = () => {
         >
           BLAH BLAH
         </h1>
+        <div className="flex gap-4 pt-10">
+          <a className="w-[100px]">
+            <img src="telegram.PNG" alt="telegram" />
+          </a>
+          <a className="w-[100px]">
+            <img src="dextool.PNG" alt="dextool" />
+          </a>
+        </div>
       </div>
       <div className="hidden lg:block w-1/3">
         <a
