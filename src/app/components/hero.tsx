@@ -24,10 +24,13 @@ const Hero = () => {
           BLAH BLAH
         </h1>
         <div className="flex gap-4 pt-10">
-          <a className="w-[100px]">
+          <a className="w-[100px]" href="https://t.me/dogecaucus_sol">
             <img src="telegram.PNG" alt="telegram" />
           </a>
-          <a className="w-[100px]">
+          <a
+            className="w-[100px]"
+            href="https://www.dextools.io/app/en/token/dogecaucus?t=1738234953696"
+          >
             <img src="dextool.PNG" alt="dextool" />
           </a>
         </div>
@@ -40,15 +43,13 @@ const Hero = () => {
           <img src="telegram.PNG" alt="telegram" />
         </a>
         <a
-          href="https://www.dextools.io/app/en/token/dogecaucus?t=1738234953696
-"
+          href="https://www.dextools.io/app/en/token/dogecaucus?t=1738234953696"
           className="w-[100px] absolute right-16 top-[100px]"
         >
           <img src="dextool.PNG" alt="dextool" />
         </a>
         <a
-          href="https://x.com/DogeCaucus_CTO
-"
+          href="https://x.com/DogeCaucus_CTO"
           className="w-[290px] absolute right-14 top-[110px]"
         >
           <img src="twitter.PNG" alt="twitter" />
