@@ -4,26 +4,26 @@ const Hero = () => {
       <div className="flex flex-col w-full lg:w-1/3 pt-16 items-center p-2">
         <img src="logo.PNG" alt="logo" className="w-[450px]" />
         <h1
-          className="text-3xl lg:text-5xl font-bold text-white mt-8"
+          className="text-3xl lg:text-5xl font-bold text-white mt-8 text-center"
           style={{
             WebkitTextStroke: "0px black",
             textShadow:
               "-2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black",
           }}
         >
-          BLAH BLAH BLAH
+          For the people,
         </h1>
         <h1
-          className="text-3xl lg:text-5xl text-white mt-8 font-extrabold"
+          className="text-3xl lg:text-5xl text-white font-extrabold text-center"
           style={{
             WebkitTextStroke: "0px black",
             textShadow:
               "-2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black",
           }}
         >
-          BLAH BLAH
+          by the people
         </h1>
-        <div className="flex gap-4 pt-10">
+        <div className="flex gap-4 pt-10 lg:hidden">
           <a className="w-[100px]" href="https://t.me/dogecaucus_sol">
             <img src="telegram.PNG" alt="telegram" />
           </a>
