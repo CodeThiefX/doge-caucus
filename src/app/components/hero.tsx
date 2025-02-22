@@ -23,7 +23,7 @@ const Hero = () => {
         >
           by the people
         </h1>
-        <div className="flex gap-4 pt-10 lg:hidden">
+        <div className="flex gap-4 py-10 lg:hidden">
           <a className="w-[100px]" href="https://t.me/dogecaucus_sol">
             <img src="telegram.PNG" alt="telegram" />
           </a>
@@ -33,9 +33,18 @@ const Hero = () => {
           >
             <img src="dextool.PNG" alt="dextool" />
           </a>
+          <a className="w-[100px]" href="https://x.com/DogeCaucus_CTO">
+            <img src="twitter2.PNG" alt="twitter" />
+          </a>
         </div>
       </div>
       <div className="hidden lg:block w-1/3">
+        <a
+          href="https://x.com/DogeCaucus_CTO"
+          className="w-[290px] absolute right-14 top-[120px]"
+        >
+          <img src="twitter.PNG" alt="twitter" />
+        </a>
         <a
           href="https://t.me/dogecaucus_sol"
           className="w-[100px] absolute right-[50px] top-[190px]"
@@ -47,12 +56,6 @@ const Hero = () => {
           className="w-[100px] absolute right-16 top-[110px]"
         >
           <img src="dextool.PNG" alt="dextool" />
-        </a>
-        <a
-          href="https://x.com/DogeCaucus_CTO"
-          className="w-[290px] absolute right-14 top-[120px]"
-        >
-          <img src="twitter.PNG" alt="twitter" />
         </a>
       </div>
     </div>
