@@ -58,9 +58,15 @@ const NavBar = () => {
           style={{ backgroundColor: "rgb(26, 54, 104)" }}
         >
           <div className="flex flex-col items-center gap-4 p-4">
-            <a className="text-white text-xl">ABOUT</a>
-            <a className="text-white text-xl">TOKENOMICS</a>
-            <a className="text-white text-xl">MISSION</a>
+            <a className="text-white text-xl" href="#">
+              HOME
+            </a>
+            <a className="text-white text-xl" href="#about">
+              MISSION
+            </a>
+            <a className="text-white text-xl" href="#tokenomics">
+              TOKENOMICS
+            </a>
             <img src="buy-now.PNG" alt="buy-now" width="100" height="40" />
           </div>
         </div>
