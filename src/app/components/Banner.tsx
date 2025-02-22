@@ -22,7 +22,7 @@ const Banner = () => {
             </div> */}
 
             <h1 className="text-4xl lg:text-6xl font-bold tracking-tight">
-              <img src="/banner-title.PNG" alt="logo" className="w-[450px]" />
+              <img src="/banner-title.png" alt="logo" className="w-[450px]" />
             </h1>
 
             <p className="text-lg text-gray-300">
