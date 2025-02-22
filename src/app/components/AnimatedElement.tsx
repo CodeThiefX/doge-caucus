@@ -1,6 +1,7 @@
 "use client";
 
-import { useRef, useState, useEffect, ReactNode } from "react";
+import React, { useRef, useState, useEffect, ReactNode } from "react";
+import type { JSX } from "react";
 
 interface AnimatedElementProps {
   children: ReactNode;
