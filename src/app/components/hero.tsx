@@ -33,14 +33,14 @@ const Hero = () => {
           >
             <img src="dextool.PNG" alt="dextool" />
           </a>
-          <a className="w-[100px]" href="https://x.com/DogeCaucus_CTO">
+          <a className="w-[100px]" href="https://x.com/dogecaucuscoin?s=21">
             <img src="twitter2.PNG" alt="twitter" />
           </a>
         </div>
       </div>
       <div className="hidden lg:block w-1/3">
         <a
-          href="https://x.com/DogeCaucus_CTO"
+          href="https://x.com/dogecaucuscoin?s=21"
           className="w-[290px] absolute right-14 top-[120px]"
         >
           <img src="twitter.PNG" alt="twitter" />
