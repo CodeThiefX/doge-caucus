@@ -24,7 +24,7 @@ const Hero = () => {
           by the people
         </h1>
         <div className="flex gap-4 py-10 lg:hidden">
-          <a className="w-[100px]" href="https://t.me/dogecaucus_sol">
+          <a className="w-[100px]" href="https://t.me/DogeCaucusSolona">
             <img src="telegram.PNG" alt="telegram" />
           </a>
           <a
@@ -46,7 +46,7 @@ const Hero = () => {
           <img src="twitter.PNG" alt="twitter" />
         </a>
         <a
-          href="https://t.me/dogecaucus_sol"
+          href="https://t.me/DogeCaucusSolona"
           className="w-[100px] absolute right-[45px] top-[190px]"
         >
           <img src="telegram.PNG" alt="telegram" />
